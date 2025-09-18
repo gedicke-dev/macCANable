@@ -1068,6 +1068,17 @@
                                                 <action selector="doClearRx:" target="5gI-5U-AMq" id="QKG-4A-dnZ"/>
                                             </connections>
                                         </button>
+                                        <button verticalHuggingPriority="750" id="NEW-EXPORT-BUTTON-ID">
+                                            <rect key="frame" x="354" y="559" width="80" height="32"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <buttonCell key="cell" type="push" title="Export" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="NEW-EXPORT-CELL-ID">
+                                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                                <font key="font" metaFont="system"/>
+                                            </buttonCell>
+                                            <connections>
+                                                <action selector="doExportRx:" target="5gI-5U-AMq" id="NEW-ACTION-CONNECTION-ID"/>
+                                            </connections>
+                                        </button>
                                     </subviews>
                                 </view>
                                 <constraints>
